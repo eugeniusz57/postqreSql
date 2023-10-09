@@ -9,5 +9,5 @@ create TABLE post(
     title VARCHAR(255),
     contene VARCHAR(255),
     user_id INTEGER,
-    FORIGN KEY (user_id) REFERENCES person(id)
+    FOREIGN KEY (user_id) REFERENCES person(id)
 )
